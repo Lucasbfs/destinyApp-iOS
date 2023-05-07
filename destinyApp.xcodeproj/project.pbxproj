@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33CA5A702918150200CF1142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5A6F2918150200CF1142 /* AppDelegate.swift */; };
+		33CA5A722918150200CF1142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5A712918150200CF1142 /* SceneDelegate.swift */; };
+		33CA5A742918150200CF1142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5A732918150200CF1142 /* ViewController.swift */; };
+		33CA5A772918150200CF1142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CA5A752918150200CF1142 /* Main.storyboard */; };
+		33CA5A792918150300CF1142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CA5A782918150300CF1142 /* Assets.xcassets */; };
+		33CA5A7C2918150300CF1142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CA5A7A2918150300CF1142 /* LaunchScreen.storyboard */; };
+		33CA5A872918150300CF1142 /* destinyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5A862918150300CF1142 /* destinyAppTests.swift */; };
+		33CA5A912918150300CF1142 /* destinyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5A902918150300CF1142 /* destinyAppUITests.swift */; };
+		33CA5A932918150300CF1142 /* destinyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5A922918150300CF1142 /* destinyAppUITestsLaunchTests.swift */; };
+		33CA5AA529186ADF00CF1142 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5AA429186ADF00CF1142 /* Brain.swift */; };
+		33CA5AA72918877500CF1142 /* StoryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA5AA62918877500CF1142 /* StoryContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CA5A832918150300CF1142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CA5A642918150200CF1142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CA5A6B2918150200CF1142;
+			remoteInfo = destinyApp;
+		};
+		33CA5A8D2918150300CF1142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CA5A642918150200CF1142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CA5A6B2918150200CF1142;
+			remoteInfo = destinyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33CA5A6C2918150200CF1142 /* destinyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = destinyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CA5A6F2918150200CF1142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33CA5A712918150200CF1142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33CA5A732918150200CF1142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33CA5A762918150200CF1142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33CA5A782918150300CF1142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CA5A7B2918150300CF1142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33CA5A7D2918150300CF1142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CA5A822918150300CF1142 /* destinyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destinyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CA5A862918150300CF1142 /* destinyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinyAppTests.swift; sourceTree = "<group>"; };
+		33CA5A8C2918150300CF1142 /* destinyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destinyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CA5A902918150300CF1142 /* destinyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinyAppUITests.swift; sourceTree = "<group>"; };
+		33CA5A922918150300CF1142 /* destinyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33CA5AA429186ADF00CF1142 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		33CA5AA62918877500CF1142 /* StoryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryContent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CA5A692918150200CF1142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CA5A7F2918150300CF1142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CA5A892918150300CF1142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CA5A632918150200CF1142 = {
+			isa = PBXGroup;
+			children = (
+				33CA5A6E2918150200CF1142 /* destinyApp */,
+				33CA5A852918150300CF1142 /* destinyAppTests */,
+				33CA5A8F2918150300CF1142 /* destinyAppUITests */,
+				33CA5A6D2918150200CF1142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CA5A6D2918150200CF1142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5A6C2918150200CF1142 /* destinyApp.app */,
+				33CA5A822918150300CF1142 /* destinyAppTests.xctest */,
+				33CA5A8C2918150300CF1142 /* destinyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CA5A6E2918150200CF1142 /* destinyApp */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5A6F2918150200CF1142 /* AppDelegate.swift */,
+				33CA5A712918150200CF1142 /* SceneDelegate.swift */,
+				33CA5A9F2918697700CF1142 /* Model */,
+				33CA5AA02918697D00CF1142 /* View */,
+				33CA5AA12918698400CF1142 /* Controller */,
+				33CA5A782918150300CF1142 /* Assets.xcassets */,
+				33CA5A7A2918150300CF1142 /* LaunchScreen.storyboard */,
+				33CA5A7D2918150300CF1142 /* Info.plist */,
+			);
+			path = destinyApp;
+			sourceTree = "<group>";
+		};
+		33CA5A852918150300CF1142 /* destinyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5A862918150300CF1142 /* destinyAppTests.swift */,
+			);
+			path = destinyAppTests;
+			sourceTree = "<group>";
+		};
+		33CA5A8F2918150300CF1142 /* destinyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5A902918150300CF1142 /* destinyAppUITests.swift */,
+				33CA5A922918150300CF1142 /* destinyAppUITestsLaunchTests.swift */,
+			);
+			path = destinyAppUITests;
+			sourceTree = "<group>";
+		};
+		33CA5A9F2918697700CF1142 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5AA429186ADF00CF1142 /* Brain.swift */,
+				33CA5AA62918877500CF1142 /* StoryContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33CA5AA02918697D00CF1142 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5A752918150200CF1142 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33CA5AA12918698400CF1142 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33CA5A732918150200CF1142 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CA5A6B2918150200CF1142 /* destinyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CA5A962918150300CF1142 /* Build configuration list for PBXNativeTarget "destinyApp" */;
+			buildPhases = (
+				33CA5A682918150200CF1142 /* Sources */,
+				33CA5A692918150200CF1142 /* Frameworks */,
+				33CA5A6A2918150200CF1142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = destinyApp;
+			productName = destinyApp;
+			productReference = 33CA5A6C2918150200CF1142 /* destinyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33CA5A812918150300CF1142 /* destinyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CA5A992918150300CF1142 /* Build configuration list for PBXNativeTarget "destinyAppTests" */;
+			buildPhases = (
+				33CA5A7E2918150300CF1142 /* Sources */,
+				33CA5A7F2918150300CF1142 /* Frameworks */,
+				33CA5A802918150300CF1142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CA5A842918150300CF1142 /* PBXTargetDependency */,
+			);
+			name = destinyAppTests;
+			productName = destinyAppTests;
+			productReference = 33CA5A822918150300CF1142 /* destinyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33CA5A8B2918150300CF1142 /* destinyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CA5A9C2918150300CF1142 /* Build configuration list for PBXNativeTarget "destinyAppUITests" */;
+			buildPhases = (
+				33CA5A882918150300CF1142 /* Sources */,
+				33CA5A892918150300CF1142 /* Frameworks */,
+				33CA5A8A2918150300CF1142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CA5A8E2918150300CF1142 /* PBXTargetDependency */,
+			);
+			name = destinyAppUITests;
+			productName = destinyAppUITests;
+			productReference = 33CA5A8C2918150300CF1142 /* destinyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CA5A642918150200CF1142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					33CA5A6B2918150200CF1142 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					33CA5A812918150300CF1142 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 33CA5A6B2918150200CF1142;
+					};
+					33CA5A8B2918150300CF1142 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 33CA5A6B2918150200CF1142;
+					};
+				};
+			};
+			buildConfigurationList = 33CA5A672918150200CF1142 /* Build configuration list for PBXProject "destinyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CA5A632918150200CF1142;
+			productRefGroup = 33CA5A6D2918150200CF1142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CA5A6B2918150200CF1142 /* destinyApp */,
+				33CA5A812918150300CF1142 /* destinyAppTests */,
+				33CA5A8B2918150300CF1142 /* destinyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CA5A6A2918150200CF1142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CA5A7C2918150300CF1142 /* LaunchScreen.storyboard in Resources */,
+				33CA5A792918150300CF1142 /* Assets.xcassets in Resources */,
+				33CA5A772918150200CF1142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CA5A802918150300CF1142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CA5A8A2918150300CF1142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CA5A682918150200CF1142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CA5A742918150200CF1142 /* ViewController.swift in Sources */,
+				33CA5A702918150200CF1142 /* AppDelegate.swift in Sources */,
+				33CA5A722918150200CF1142 /* SceneDelegate.swift in Sources */,
+				33CA5AA529186ADF00CF1142 /* Brain.swift in Sources */,
+				33CA5AA72918877500CF1142 /* StoryContent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CA5A7E2918150300CF1142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CA5A872918150300CF1142 /* destinyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CA5A882918150300CF1142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CA5A912918150300CF1142 /* destinyAppUITests.swift in Sources */,
+				33CA5A932918150300CF1142 /* destinyAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33CA5A842918150300CF1142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CA5A6B2918150200CF1142 /* destinyApp */;
+			targetProxy = 33CA5A832918150300CF1142 /* PBXContainerItemProxy */;
+		};
+		33CA5A8E2918150300CF1142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CA5A6B2918150200CF1142 /* destinyApp */;
+			targetProxy = 33CA5A8D2918150300CF1142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33CA5A752918150200CF1142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CA5A762918150200CF1142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33CA5A7A2918150300CF1142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CA5A7B2918150300CF1142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CA5A942918150300CF1142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33CA5A952918150300CF1142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CA5A972918150300CF1142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = destinyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.destinyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33CA5A982918150300CF1142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = destinyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.destinyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33CA5A9A2918150300CF1142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.destinyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/destinyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/destinyApp";
+			};
+			name = Debug;
+		};
+		33CA5A9B2918150300CF1142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.destinyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/destinyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/destinyApp";
+			};
+			name = Release;
+		};
+		33CA5A9D2918150300CF1142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.destinyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = destinyApp;
+			};
+			name = Debug;
+		};
+		33CA5A9E2918150300CF1142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.destinyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = destinyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CA5A672918150200CF1142 /* Build configuration list for PBXProject "destinyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CA5A942918150300CF1142 /* Debug */,
+				33CA5A952918150300CF1142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CA5A962918150300CF1142 /* Build configuration list for PBXNativeTarget "destinyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CA5A972918150300CF1142 /* Debug */,
+				33CA5A982918150300CF1142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CA5A992918150300CF1142 /* Build configuration list for PBXNativeTarget "destinyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CA5A9A2918150300CF1142 /* Debug */,
+				33CA5A9B2918150300CF1142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CA5A9C2918150300CF1142 /* Build configuration list for PBXNativeTarget "destinyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CA5A9D2918150300CF1142 /* Debug */,
+				33CA5A9E2918150300CF1142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CA5A642918150200CF1142 /* Project object */;
+}
